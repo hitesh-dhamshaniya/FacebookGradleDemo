@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:fresco="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:fitsSystemWindows="true"
+              android:gravity="center"
+              android:orientation="vertical"
+    >
+
+
+    <com.facebook.login.widget.LoginButton
+        android:id="@+id/btn_facebook_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="@dimen/activity_horizontal_margin"/>
+
+    <TextView
+        android:id="@+id/txt_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textColor="@color/colorAccent"
+        android:textSize="18dp"/>
+
+    <Button
+        android:id="@+id/btn_post"
+        style="?attr/buttonBarButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="POST"/>
+
+    <Button
+        android:id="@+id/btn_post_photo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SHARE PHOTO"/>
+
+    <ImageView
+        android:id="@+id/img_share_photo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+    <Button
+        android:id="@+id/btn_pick_photo"
+        style="?attr/buttonBarButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="@string/PickPhoto"/>
+
+    <Button
+        android:id="@+id/btn_take_photo"
+        style="?attr/buttonBarButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text="@string/TakePhoto"/>
+
+</LinearLayout>

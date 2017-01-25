@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">FacebookGradle</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="facebook_app_id">1652559875006292</string>
+    <string name="error">error</string>
+    <string name="success">Success</string>
+    <string name="successfully_posted_post">Successfully Posted post</string>
+    <string name="ok">Ok</string>
+    <string name="cancelled">Cancelled</string>
+    <string name="permission_not_granted">Permission Not Granted</string>
+    <string name="hello_user">Hello User</string>
+    <string name="PickPhoto">Pick Photo</string>
+    <string name="TakePhoto">Take Photo</string>
+</resources>
